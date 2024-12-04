@@ -19,37 +19,32 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/sahanrashmikaslk/MERN-PetAdoptationWebApplication.git
+   git clone https://github.com/somanshh/adopt-pet.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd MERN-PetAdoptationWebApplication
+   cd adopt-pet
    ```
 
-3. Install dependencies:
+3. Install dependencies for backend:
 
    ```
+   cd backend
    npm install
+   npm start
    ```
 
-4. Set up environment variables:
-
-   Create a `.env` file in the root directory and add the following variables:
+4. Install dependencies for frontend:
 
    ```
-   MONGODB_URI=<your_mongodb_uri>
-   JWT_SECRET=<your_jwt_secret>
+   cd frontend
+   npm install
+   npm start
    ```
 
-5. Run the development server:
-
-   ```
-   npm run dev
-   ```
-
-6. Open http://localhost:3000 or whatever port in your browser to view the application.
+5. Open http://localhost:3000 or whatever port in your browser to view the application.
 
 ## Technologies Used
 
